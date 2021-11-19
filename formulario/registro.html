@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario registro</title>
+    <link rel="shortcut icon" href="..\imagenes\same.png">
+  </head>
+  <body>
+    <form action="registro.php" method="post">
+      <fieldset>
+          <h3>Inicio de sesión</h3
+      <div class="Usuario">
+        <label for="name">Nombre de Usuario: </label>
+        <input type="text" id="name" name="nombre" placeholder="Nombre de Usuario">
+      </div>
+      <div class="Email">
+        <label for="email">Dirección de Email: </label>
+        <input type="email" id="email" name="email" placeholder="Escriba su email">
+      </div>
+      <div class="Contraseña">
+        <label for="contraseña">Contraseña: </label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Escriba su contraseña">
+      </div>
+      <input type="submit" name="" value="Iniciar sesion">
+      </fieldset>
+      <h3>Registrarse</h3>
+      <div>
+        <label>Indique su sexo: </label>
+        <input type="radio" id="hombre" name="hombre" checked>
+        <label for="hombre">Masculino</label>
+        <input type="radio" id="mujer" name="mujer">
+        <label for="mujer">Femenino</label>
+      </div>
+      <div>
+        <label for="">Tipo de Usuario:</label>
+        <input type="checkbox" id="comprador" name="comprador" value="">
+        <label for="comprador">Comprador</label>
+        <input type="checkbox" id="vendedor" name="vendedor" value="">
+        <label for="vendedor">Vendedor</label>
+      </div>
+      <button>Registrarse</button> <input type="reset" name="" value="Borrar todo">
+
+    </form>
+  </body>
+</html>
